@@ -5,7 +5,7 @@
 		"whatsapp",
 		"bot"
 	],
-	"repository": "https://github.com/raganork-ind/whatsapp-bot",
+	"repository": "https://github.com/ydkingv1-ind/whatsapp-bot",
 	"stack": "container",
     "env": { 
         "HANDLERS": {
@@ -41,7 +41,7 @@
         "STICKER_DATA": {
             "description": "Name of stickers created using bot. Can also split using ;",
             "required": true,
-            "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ"
+            "value":"یاسر ڈوگر"
         },
         "CHATBOT": {
             "description": "AI chatbot",
@@ -56,7 +56,7 @@
         "AUDIO_DATA": {
             "description": "Name of audio (take) name;name;image(url)",
             "required": true,
-            "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;https://2.img-dpreview.com/files/p/E~C1000x0S4000x4000T1200x1200~articles/3925134721/0266554465.jpeg"
+            "value":YASIR DOGAR:"https://2.1652944797899.jpeg"
         },
         "MODE": {
             "description": "Private or public",
@@ -66,7 +66,7 @@
         "SUDO": {
             "description": "These numbers can control your bot. seperate with commas",
             "required": false,
-            "value":"919074309534"
+            "value":"923002611878"
         },
         "ALIVE": {
             "description": "Alive message {image/link}, {sender} can also be used",
