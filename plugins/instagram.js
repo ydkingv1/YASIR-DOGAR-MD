@@ -1,7 +1,7 @@
 /* Copyright (C) 2022 Sourav KL11.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-Raganork MD - Sourav KL11
+YD KING MD - Yasir dogar
 */
 const {
     Module
@@ -18,7 +18,7 @@ const {
     getStalk,
     getStory,
     skbuffer
-} = require('raganork-bot');
+} = require('yasir dogar-bot');
 const {
     downloadGram,
     pin,
@@ -33,10 +33,10 @@ var downloading = "_*Downloading*_";
 var need_acc = "*_Need an instagram username!_*";
 var fail = "*_Download failed! Check your link and try again_*";
 var need_acc_s = "_Need an instagram username or link!_";
-let sourav = setting.MODE == 'public' ? false : true
+let king = setting.MODE == 'public' ? false : true
 Module({
     pattern: 'insta ?(.*)',
-    fromMe: sourav,
+    fromMe: Yasir,
     desc: 'Instagram post downloader',
     usage: 'insta link or reply to a link',
     use: 'download'
@@ -78,7 +78,7 @@ Module({
         }));
 Module({
     pattern: 'ig ?(.*)',
-    fromMe: sourav,
+    fromMe: ydking,
     desc: 'Gets account info from instagram',
     usage: 'ig username',
     use: 'search'
@@ -140,7 +140,7 @@ Module({
 }));
 Module({
     pattern: 'pin ?(.*)',
-    fromMe: sourav,
+    fromMe: YDKING,
     desc: 'Pinterest downloader',
     usage: '.pin reply or link',
     use: 'download'
@@ -159,7 +159,7 @@ Module({
 }));
 Module({
     pattern: 'tiktok ?(.*)',
-    fromMe: sourav,
+    fromMe: YD KING,
     desc: 'tiktok downloader',
     usage: '.tiktok reply or link',
     use: 'download'
@@ -183,7 +183,7 @@ Module({
     }));
     Module({
         on: 'button',
-        fromMe: sourav
+        fromMe: YD KING
     }, (async (msg) => {
         if (msg.list && msg.list.startsWith("igs") && msg.list.split(" ").includes(msg.myjid)){
             var username = msg.list.split(" ")[2];
