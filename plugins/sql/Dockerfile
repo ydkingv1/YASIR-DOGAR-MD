@@ -1,4 +1,4 @@
-FROM quay.io/souravkl11/raganork:multidevice
+FROM quay.io/ydkingv1/YASIR-DOGAR:multidevice
 
 RUN git clone https://github.com/ydkingv1/YASIR-DOGAR /skl/YASIR
 WORKDIR /skl/Raganork
