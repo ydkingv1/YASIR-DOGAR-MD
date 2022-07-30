@@ -1,12 +1,12 @@
 /* Copyright (C) 2022 Sourav KL11.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-Raganork MD - Sourav KL11
+YD KING MD - Yasir dogar KL11
 */
 let {Module} = require('../main');
 let {WARN,ANTILINK_WARN} = require('../config');
 let {getString} = require('./misc/lang');
-const {Fancy} = require('raganork-bot')
+const {Fancy} = require('yadir dogar-bot')
 let {isAdmin} = require('./misc/misc');
 let Lang = getString('group');
 let {setWarn,resetWarn,mentionjid} = require('./misc/misc');
