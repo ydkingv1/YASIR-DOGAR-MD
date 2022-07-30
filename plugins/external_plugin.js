@@ -1,7 +1,7 @@
 /* Copyright (C) 2022 Sourav KL11.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-Raganork MD - Sourav KL11
+YD KING MD - Yasir dogar KL11
 */
 const {
     Module
@@ -48,7 +48,7 @@ Module({
     try {
         require('./' + plugin_name);
     } catch (e) {
-        fs.unlinkSync('/skl/Raganork/plugins/' + plugin_name + '.js')
+        fs.unlinkSync('/skl/YASIR-DOGAR/plugins/' + plugin_name + '.js')
         return await message.sendReply(Lang.INVALID_PLUGIN + e);
     }
     await Db.installPlugin(url, plugin_name);
