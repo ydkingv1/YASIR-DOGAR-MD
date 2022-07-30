@@ -5,7 +5,7 @@ Module({
 
 */
 const {Module} = require('../main')
-const {skbuffer} = require('raganork-bot');
+const {skbuffer} = require('yasir dogar-bot');
 const axios = require('axios');
 const {MODE} = require('../config');
 let auto = MODE == 'public' ? false : true
