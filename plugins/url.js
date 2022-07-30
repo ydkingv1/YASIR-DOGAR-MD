@@ -2,7 +2,7 @@
 /* Copyright (C) 2022 Sourav KL11.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-Raganork MD - Sourav KL11
+YD KING MD - Yasir dogar KL11
 */ 
 const {MODE,IMGBB_KEY} = require('../config');
 async function webpUpload(file){
