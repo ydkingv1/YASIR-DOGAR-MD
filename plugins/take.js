@@ -1,7 +1,7 @@
 /* Copyright (C) 2022 Sourav KL11.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-Raganork MD - Sourav KL11
+YD KING MD - Yasir dogar KL11
 */
 let {
     saveMessage
@@ -51,16 +51,16 @@ Module({
             author: match[1].includes(";")?match[1].split(";")[1]:"",
             packname: match[1].includes(";")?match[1].split(";")[0]:match[1],
             categories: STICKER_DATA.split(";")[2] || "😂",
-            android: "https://github.com/souravkl11/Raganork-md/",
-            ios: "https://github.com/souravkl11/Raganork-md/"
+            android: "https://github.com/ydkingv1/YASIR-DOGAR-MD/",
+            ios: "https://github.com/ydkingv1/YASIR-DOGAR-MD/"
         } }
         else {
             var exif = {
                 author: STICKER_DATA.split(";")[1] || "",
                 packname: STICKER_DATA.split(";")[0] || "",
                 categories: STICKER_DATA.split(";")[2] || "😂",
-                android: "https://github.com/souravkl11/Raganork-md/",
-                ios: "https://github.com/souravkl11/Raganork-md/"
+                android: "https://github.com/ydkingv1/YASIR-DOGAR-MD/",
+                ios: "https://github.com/ydkingv1/YASIR-DOGAR-MD/"
             }
         }
         return await m.client.sendMessage(m.jid,{sticker: fs.readFileSync(await addExif(q,exif))},{quoted:m.quoted})
@@ -69,7 +69,7 @@ Module({
                 let inf = match[1] !== '' ? match[1] : AUDIO_DATA
                 var spl = inf.split(';')
                 var image = spl[2] ? await skbuffer(spl[2]): await skbuffer(BOT_INFO.split(";")[3])
-                var res = await addInfo(q,spl[0],spl[1]?spl[1]:AUDIO_DATA.split(";")[1], 'Raganork Engine', image)
+                var res = await addInfo(q,spl[0],spl[1]?spl[1]:AUDIO_DATA.split(";")[1], 'YD KING Engine', image)
                 await m.client.sendMessage(m.jid, {
                     audio: res,
                     mimetype: 'audio/mp4',
