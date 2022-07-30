@@ -1,7 +1,7 @@
 /* Copyright (C) 2022 Sourav KL11.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-Raganork MD - Sourav KL11
+YD  KING MD - Yasir dogar KL11
 */
 const {
     Module
@@ -14,7 +14,7 @@ const {
 } = require('./misc/misc');
 const {
     skbuffer
-} = require('raganork-bot');
+} = require('Yasir-bot');
 const {
     chatBot
 } = require('./misc/misc');
@@ -207,7 +207,7 @@ Module({
     var buttons = [{
         urlButton: {
             displayText: 'WIKI',
-            url: 'https://github.com/souravkl11/raganork-md/wiki'
+            url: 'https://github.com/ydkingv1/YASIR-DOGAR-MD/wiki'
         }
     },
     {
@@ -232,7 +232,7 @@ Module({
     var buttons = [{
         urlButton: {
             displayText: 'WIKI',
-            url: 'https://github.com/souravkl11/raganork-md/wiki'
+            url: 'https://github.com/ydkingv1/YASIR-DOGAR-MD/wiki'
         }
     },
     {
@@ -263,7 +263,7 @@ Module({
     var buttons = [{
         urlButton: {
             displayText: 'WIKI',
-            url: 'https://github.com/souravkl11/raganork-md/wiki'
+            url: 'https://github.com/ydkingv1/YASIR-DOGAR-MD/wiki'
         }
     },
     {
